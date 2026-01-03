@@ -18,95 +18,104 @@
 
 <body class="bg-[#050510] text-gray-300 font-['Inter'] min-h-screen flex items-center justify-center p-6">
 
-    <main class="w-full max-w-3xl space-y-10">
+    <div class="w-full max-w-6xl">
+        <main class="w-full space-y-10">
 
 
-        <div class="text-center space-y-2">
-            <h1 class="text-3xl font-bold text-white tracking-tight">Password Physics</h1>
-            <p class="text-gray-500 text-sm">Visualize the mathematical strength of your security.</p>
-        </div>
-
-
-        <div class="bg-gray-900/50 border border-gray-800 rounded-2xl p-6 shadow-2xl backdrop-blur-sm">
-            <div class="relative">
-                <input type="password" id="password-input" placeholder="Enter a password..."
-                    class="w-full bg-transparent text-white text-2xl font-['JetBrains_Mono'] placeholder-gray-700 focus:outline-none text-center"
-                    autocomplete="off" spellcheck="false">
-
-                <button id="toggle-visibility"
-                    class="absolute right-0 top-1/2 transform -translate-y-1/2 text-gray-600 hover:text-white transition-colors">
-                    <i class="fas fa-eye"></i>
-                </button>
+            <div class="text-center space-y-2">
+                <h1 class="text-5xl font-bold text-white tracking-tight">Password Physics</h1>
+                <p class="text-gray-500 text-sm">Visualize the mathematical strength of your security.</p>
             </div>
 
 
-            <div class="mt-6 h-1 w-full bg-gray-800 rounded-full overflow-hidden">
-                <div id="strength-bar" class="h-full w-0 bg-red-500 transition-all duration-700 ease-out"></div>
-            </div>
+            <div class="bg-gray-900/50 border border-gray-800 rounded-2xl p-6 shadow-2xl backdrop-blur-sm">
+                <div class="relative">
+                    <input type="password" id="password-input" placeholder="Enter a password..."
+                        class="w-full bg-transparent text-white text-2xl font-['JetBrains_Mono'] placeholder-gray-700 focus:outline-none text-center"
+                        autocomplete="off" spellcheck="false">
 
-            <div class="flex justify-between text-xs mt-3 text-gray-500 font-mono uppercase tracking-wider">
-                <span id="strength-text" class="text-red-500 font-bold">Waiting...</span>
-                <span id="entropy-label">0 bits</span>
-            </div>
-        </div>
-
-
-        <div id="dashboard"
-            class="grid grid-cols-1 md:grid-cols-2 gap-4 transition-all duration-500 opacity-0 transform translate-y-4">
+                    <button id="toggle-visibility"
+                        class="absolute right-0 top-1/2 transform -translate-y-1/2 text-gray-600 hover:text-white transition-colors">
+                        <i class="fas fa-eye"></i>
+                    </button>
+                </div>
 
 
-            <div
-                class="p-6 rounded-2xl bg-gray-900/30 border border-gray-800/50 hover:border-gray-700 transition-colors">
-                <h3 class="text-xs font-bold text-gray-400 uppercase tracking-widest mb-4">Time to Guess</h3>
+                <div class="mt-6 h-1 w-full bg-gray-800 rounded-full overflow-hidden">
+                    <div id="strength-bar" class="h-full w-0 bg-red-500 transition-all duration-700 ease-out"></div>
+                </div>
 
-                <div class="space-y-5 font-['JetBrains_Mono'] text-sm">
-                    <div class="flex justify-between items-center group">
-                        <div class="flex items-center text-gray-500">
-                            <i class="fas fa-laptop w-6"></i>
-                            <span>Throttled Online</span>
-                        </div>
-                        <span class="text-white font-bold group-hover:text-blue-400 transition-colors"
-                            id="time-throttled">---</span>
-                    </div>
-
-                    <div class="flex justify-between items-center group">
-                        <div class="flex items-center text-gray-500">
-                            <i class="fas fa-microchip w-6"></i>
-                            <span>Fast GPU Hash</span>
-                        </div>
-                        <span class="text-white font-bold group-hover:text-purple-400 transition-colors"
-                            id="time-gpu">---</span>
-                    </div>
-
-                    <div class="flex justify-between items-center group">
-                        <div class="flex items-center text-gray-500">
-                            <i class="fas fa-network-wired w-6"></i>
-                            <span>Global Botnet</span>
-                        </div>
-                        <span class="text-white font-bold group-hover:text-red-400 transition-colors"
-                            id="time-botnet">---</span>
-                    </div>
+                <div class="flex justify-between text-xs mt-3 text-gray-500 font-mono uppercase tracking-wider">
+                    <span id="strength-text" class="text-red-500 font-bold">Waiting...</span>
+                    <span id="entropy-label">0 bits</span>
                 </div>
             </div>
 
 
-            <div
-                class="p-6 rounded-2xl bg-gray-900/30 border border-gray-800/50 hover:border-gray-700 transition-colors flex flex-col justify-center text-center">
-                <div id="feedback-container" class="mb-4">
-                    <div class="text-gray-600 italic">Analysis pending...</div>
+            <div id="dashboard"
+                class="grid grid-cols-1 md:grid-cols-2 gap-4 transition-all duration-500 opacity-0 transform translate-y-4">
+
+
+                <div
+                    class="p-6 rounded-2xl bg-gray-900/30 border border-gray-800/50 hover:border-gray-700 transition-colors">
+                    <h3 class="text-xs font-bold text-gray-400 uppercase tracking-widest mb-4">Time to Guess</h3>
+
+                    <div class="space-y-5 font-['JetBrains_Mono'] text-sm">
+                        <div class="flex justify-between items-center group">
+                            <div class="flex items-center text-gray-500">
+                                <i class="fas fa-laptop w-6"></i>
+                                <span>Throttled Online</span>
+                            </div>
+                            <span class="text-white font-bold group-hover:text-blue-400 transition-colors"
+                                id="time-throttled">---</span>
+                        </div>
+
+                        <div class="flex justify-between items-center group">
+                            <div class="flex items-center text-gray-500">
+                                <i class="fas fa-microchip w-6"></i>
+                                <span>Fast GPU Hash</span>
+                            </div>
+                            <span class="text-white font-bold group-hover:text-purple-400 transition-colors"
+                                id="time-gpu">---</span>
+                        </div>
+
+                        <div class="flex justify-between items-center group">
+                            <div class="flex items-center text-gray-500">
+                                <i class="fas fa-network-wired w-6"></i>
+                                <span>Global Botnet</span>
+                            </div>
+                            <span class="text-white font-bold group-hover:text-red-400 transition-colors"
+                                id="time-botnet">---</span>
+                        </div>
+                    </div>
                 </div>
 
 
-                <div id="meme-container"
-                    class="mt-2 hidden rounded-lg overflow-hidden border border-gray-700/50 shadow-lg">
-                    <img id="meme-image" src="" alt="Password Meme"
-                        class="w-full h-auto object-cover opacity-80 hover:opacity-100 transition-opacity">
+                <div
+                    class="p-6 rounded-2xl bg-gray-900/30 border border-gray-800/50 hover:border-gray-700 transition-colors flex flex-col justify-center text-center">
+                    <div id="feedback-container" class="mb-4">
+                        <div class="text-gray-600 italic">Analysis pending...</div>
+                    </div>
+
+
+                    <div id="meme-container"
+                        class="mt-2 hidden rounded-lg overflow-hidden border border-gray-700/50 shadow-lg">
+                        <img id="meme-image" src="" alt="Password Meme"
+                            class="w-full h-auto object-cover opacity-80 hover:opacity-100 transition-opacity">
+                    </div>
                 </div>
+
             </div>
 
-        </div>
+        </main>
 
-    </main>
+        <footer class="w-full mt-12 text-center">
+            <p class="text-gray-600 text-xs">
+                <i class="fas fa-info-circle mr-1"></i>
+                This is a fun project for educational purposes. None of your passwords are saved or transmitted.
+            </p>
+        </footer>
+    </div>
 
     <script src="script.js"></script>
 
