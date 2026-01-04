@@ -18,7 +18,10 @@ Just type a password and watch the magic happen. Or the horror, depending on how
 - Entropy in bits (the math behind password strength)
 - How long it would take to crack your password under different attacks (throttled online, GPU hashing, botnet attacks)
 - Visual feedback with animations that change based on strength (cracked bars for weak passwords, glowing effects for strong ones)
-- Helpful suggestions on what makes a password better
+- Character breakdown showing counts of uppercase, lowercase, numbers, and symbols
+- Requirements checklist to see if your password meets common security standards
+- Password suggestions with copy functionality to help you create stronger passwords
+- Easter eggs that roast you if you use common weak passwords like "password123" or "qwerty"
 - Memes that make fun of your password choices
 
 ## Pages
