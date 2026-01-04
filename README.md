@@ -21,10 +21,15 @@ Just type a password and watch the magic happen. Or the horror, depending on how
 - Helpful suggestions on what makes a password better
 - Memes that make fun of your password choices
 
+## Pages
+
+- `home.html` - Story page with information about password security and the top 10 most common passwords
+- `index.html` - Interactive password visualizer tool
+
 ## How to use it locally
 
 1. Clone this repo or download the files
-2. Open `index.html` in your browser
+2. Open `home.html` in your browser (or `index.html` to go straight to the visualizer)
 3. Start typing passwords and feel bad about your security habits
 
 That's it. No build process, no dependencies to install, just pure HTML, CSS, and JavaScript.
