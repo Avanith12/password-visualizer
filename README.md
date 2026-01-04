@@ -63,4 +63,8 @@ This is for educational purposes only. Please don't use this to judge other peop
 - Tailwind CSS for styling
 - zxcvbn library for password strength estimation
 
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
 That's pretty much it. Sometimes the simplest tools are the most fun to use.
