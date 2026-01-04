@@ -41,7 +41,8 @@ The home page includes:
 
 ## Credits
 
-The top 10 most common passwords list was sourced from [@themakeshiftproject](https://www.instagram.com/themakeshiftproject/) on Instagram from a reel they posted. This website was inspired by that reel.
+- The top 10 most common passwords list was sourced from [@themakeshiftproject](https://www.instagram.com/themakeshiftproject/) on Instagram from a reel they posted. This website was inspired by that reel.
+- Hero image from [Unsplash](https://unsplash.com/)
 
 ## How to use it locally
 
