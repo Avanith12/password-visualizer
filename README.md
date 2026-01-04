@@ -26,7 +26,7 @@ Just type a password and watch the magic happen. Or the horror, depending on how
 
 ## Pages
 
-- `home.html` - Story page with information about password security and the top 10 most common passwords
+- `home.html` - **Entry point** - Story page with information about password security and the top 10 most common passwords
 - `index.html` - Interactive password visualizer tool
 
 ## Home Page Features
@@ -44,8 +44,9 @@ The top 10 most common passwords list was sourced from [@themakeshiftproject](ht
 ## How to use it locally
 
 1. Clone this repo or download the files
-2. Open `home.html` in your browser (or `index.html` to go straight to the visualizer)
-3. Start typing passwords and feel bad about your security habits
+2. Open `home.html` in your browser (this is the entry point - start here!)
+3. Navigate to the visualizer from the home page, or open `index.html` directly to go straight to the tool
+4. Start typing passwords and feel bad about your security habits
 
 That's it. No build process, no dependencies to install, just pure HTML, CSS, and JavaScript.
 
