@@ -26,6 +26,14 @@ Just type a password and watch the magic happen. Or the horror, depending on how
 - `home.html` - Story page with information about password security and the top 10 most common passwords
 - `index.html` - Interactive password visualizer tool
 
+## Home Page Features
+
+The home page includes:
+- Hero image with title overlay
+- Story about password security and why good passwords matter
+- Top 10 most common passwords of 2025
+- Information about password vulnerabilities and hacker tactics
+
 ## How to use it locally
 
 1. Clone this repo or download the files
