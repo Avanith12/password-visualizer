@@ -34,6 +34,10 @@ The home page includes:
 - Top 10 most common passwords of 2025
 - Information about password vulnerabilities and hacker tactics
 
+## Credits
+
+The top 10 most common passwords list was sourced from [@themakeshiftproject](https://www.instagram.com/themakeshiftproject/) on Instagram from a reel they posted. This website was inspired by that reel.
+
 ## How to use it locally
 
 1. Clone this repo or download the files
