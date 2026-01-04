@@ -8,7 +8,7 @@ It's a simple tool that analyzes your password in real-time as you type. It calc
 
 ## Try it out
 
-You can check it out live here: [https://Avanith12.github.io/password-visualizer/](https://Avanith12.github.io/password-visualizer/)
+You can check it out live here: [https://avanith12.github.io/password-visualizer/home.html](https://avanith12.github.io/password-visualizer/home.html)
 
 Just type a password and watch the magic happen. Or the horror, depending on how bad your password is.
 
