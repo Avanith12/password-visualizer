@@ -1,4 +1,4 @@
-# Password Visualizer
+# Password Physics
 
 Ever wondered if your password "password123" would survive a hacker's coffee break? This little web app will show you exactly how long it would take someone to crack your password, complete with some fancy visual effects and memes that roast your security choices.
 
