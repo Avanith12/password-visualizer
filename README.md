@@ -31,6 +31,19 @@ Just type a password and watch the magic happen. Or the horror, depending on how
 - `home.html` - **Entry point** - Story page with information about password security and the top 10 most common passwords
 - `index.html` - Interactive password visualizer tool
 
+## File Structure
+
+```
+password-visualizer/
+├── home.html          # Story page (entry point)
+├── index.html         # Interactive password visualizer
+├── script.js          # JavaScript logic for password analysis
+├── style.css          # Custom CSS animations and styles
+├── image.png          # Project screenshot
+├── README.md          # Project documentation
+└── LICENSE            # MIT License
+```
+
 ## Home Page Features
 
 The home page includes:
